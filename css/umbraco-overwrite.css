@@ -1,0 +1,194 @@
+.umb-grid .grid-section .container {
+	width:100%;
+	padding:0;
+}
+.page-section .umb-grid .grid-section .container {
+	padding:0px 60px;
+}
+.google-map .grid-section {
+	position: relative;
+}
+.google-map .umb-grid .grid-section .container {
+	padding: 0;
+}
+.google-map .umb-grid .grid-section .container .row {
+	margin: 0;
+}
+.google-map .umb-grid .grid-section .container .row .column {
+	padding: 0;
+}
+.google-map .umb-grid .grid-section .google-map.page-section-pt {
+	margin: 0;
+	padding: 0;
+}
+.contourField  .help-block {
+	display: none;
+}
+.about .col-md-4 img {
+width:100%;
+}
+body.layout2 .page-section .umb-grid .grid-section .container {
+    padding: 0px 150px;
+}
+body.layout2 .google-map .umb-grid .grid-section .container {
+    padding: 0px !important;
+}
+body.layout3 .google-map .umb-grid .grid-section .container {
+    padding: 0px !important;
+}
+body.layout3 .page-section .umb-grid .grid-section .container {
+    padding: 0px 150px;
+}
+.page-section .umb-grid .grid-section .contact .container {
+    padding: 0px !important;
+}
+.google-map.page-section {
+	padding-bottom: 0;
+}
+.layout2 .navbar-right .dropdown-menu {
+	right: 0;
+    left: inherit;
+}
+.page-header .breadcrumb li .dropdown-menu {
+    right:0;
+    left:inherit;
+}
+.page-header .breadcrumb li .dropdown-menu li a {
+    color:#373737;
+} 
+.page-header .breadcrumb li a span {
+    padding-right:0;
+}
+.navbar-default, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .active > a {
+    box-shadow:none;
+}
+.layout3 .navbar-nav > li > .dropdown-menu {
+    right:0;
+    left:inherit;
+}
+/* Umbraco Columns Responsive Overwrites */
+@media (min-width: 768px) {
+.about .col-md-4 {
+	width: 33.33333333%;
+	float: left;
+}
+.about .col-md-8 {
+    width: 66.66666667%;
+    float: left;
+}
+.services .col-md-3 {
+	width: 50%;
+	float: left;
+}
+.my-skill .col-md-6 {
+	width: 50%;
+	float: left;
+}
+.my-skill .skill li{
+	font-size: 15px;
+}
+.resume .col-md-4 {
+    width: 33.33333333%;
+    float: left;
+}
+.resume .col-md-8 {
+    width: 66.66666667%;
+     float: left;
+}
+.calendar .date-area > .day, .calendar .date-area > .month {
+	font-size: 24px;
+}
+.calendar .date-area > .day, .calendar .date-area > .month {
+	padding: 0 3px;
+}
+.calendar .date-area > .date {
+	font-size: 60px;
+}
+.blog .blog-image img {
+	width: 100%;
+}
+.testimonials .testimonials-comment p {
+	font-size: 12px;
+}
+
+}
+@media (min-width: 992px) {
+.services .col-md-3 {
+	width: 50%;
+}
+.my-skill .skill li{
+	font-size: 15px;
+}
+.calendar .date-area > .day, .calendar .date-area > .month {
+	font-size: 13px;
+}
+.calendar .date-area > .day, .calendar .date-area > .month {
+	padding: 0 3px;
+}
+.calendar .date-area > .date {
+	font-size: 24px;
+}
+.blog .blog-image img {
+	width: 100%;
+}
+.testimonials .testimonials-comment p {
+	font-size: 14px;
+}
+
+}
+@media (min-width: 1170px) {
+.services .col-md-3 {
+    width: 25%;
+}
+}
+@media (max-width: 1272px) {
+.layout2 .navbar-default .navbar-nav > li > a {
+    margin: 0 4px;
+}
+.layout3 .navbar-default .navbar-nav > li > a {
+    margin: 0 4px;
+}
+}
+@media (max-width: 1024px) {
+	body.layout2 .page-section .umb-grid .grid-section .container {
+    padding: 0px 30px;
+}
+body.layout3 .page-section .umb-grid .grid-section .container {
+    padding: 0px 30px;
+}
+}
+@media (max-width: 992px) {
+.layout2 .navbar-toggle, .layout3 .navbar-toggle  {
+	display: block;
+}
+.layout2 .menu-responsive, .layout3 .menu-responsive {
+	display: none;
+}
+}
+@media (max-width: 767px) {
+.page-section .umb-grid .grid-section .container {
+    padding: 0 30px;
+}
+.date-area > .date {
+    background: transparent;
+    color: #ffffff;
+}
+.blog .blog-image img {
+	width: 100%;
+}
+.google-map .container {
+	padding: 0 !important;
+}
+body.layout2 .page-section .umb-grid .grid-section .container {
+    padding: 0px 30px;
+}
+body.layout3 .page-section .umb-grid .grid-section .container {
+    padding: 0px 30px;
+}
+.navbar-default .navbar-toggle {
+	display: none;
+}
+.layout2 .navbar-default .navbar-toggle, .layout3 .navbar-default .navbar-toggle {
+	display: block;
+}
+}
